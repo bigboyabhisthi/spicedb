@@ -35,7 +35,7 @@ require (
 	github.com/johannesboyne/gofakes3 v0.0.0-20210608054100-92d5d4af5fde
 	github.com/jpillora/backoff v1.0.0
 	github.com/jwangsadinata/go-multimap v0.0.0-20190620162914-c29f3d7f33b6
-	github.com/jzelinskie/cobrautil v0.0.4
+	github.com/jzelinskie/cobrautil v0.0.10
 	github.com/jzelinskie/stringz v0.0.1
 	github.com/lib/pq v1.10.3
 	github.com/ngrok/sqlmw v0.0.0-20200129213757-d5c93a81bec6
@@ -49,13 +49,12 @@ require (
 	github.com/spf13/cobra v1.2.1
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.24.0
-	go.opentelemetry.io/otel v1.0.0
-	go.opentelemetry.io/otel/exporters/jaeger v1.0.0 // indirect
-	go.opentelemetry.io/otel/trace v1.0.0
+	go.opentelemetry.io/otel v1.3.0
+	go.opentelemetry.io/otel/trace v1.3.0
 	golang.org/x/sys v0.0.0-20210921065528-437939a70204 // indirect
 	golang.org/x/tools v0.1.6 // indirect
 	google.golang.org/genproto v0.0.0-20210909211513-a8c4777a87af
-	google.golang.org/grpc v1.40.0
+	google.golang.org/grpc v1.42.0
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
