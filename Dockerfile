@@ -14,7 +14,7 @@ RUN go mod download
 COPY . .
 RUN go build ./cmd/spicedb/
 
-FROM alpine:3.14.2
+FROM alpine:3.16.0
 
 RUN [ ! -e /etc/nsswitch.conf ] && echo 'hosts: files dns' > /etc/nsswitch.conf
 COPY --from=build /go/bin/grpc_health_probe /usr/local/bin/
